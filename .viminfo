@@ -21,17 +21,21 @@
 # Registers:
 
 # File marks:
-'0  1  17  ~/sampleApp.html
-'1  1  15  ~/index.html
-'2  13  6  /a2.html
-'3  4  7  /index.html
-'4  1  29  /index.html
-'5  2  7  /index.html
-'6  1  0  /app.js
+'0  3  11  ~/sampleApp.html
+'1  3  11  ~/index.html
+'2  1  17  ~/sampleApp.html
+'3  1  15  ~/index.html
+'4  13  6  /a2.html
+'5  4  7  /index.html
+'6  1  29  /index.html
+'7  2  7  /index.html
+'8  1  0  /app.js
 
 # Jumplist (newest first):
--'  1  17  ~/sampleApp.html
--'  1  15  ~/index.html
+-'  3  11  ~/sampleApp.html
+-'  1  0  ~/sampleApp.html
+-'  3  11  ~/index.html
+-'  1  0  ~/index.html
 -'  13  6  /a2.html
 -'  1  0  /a2.html
 -'  4  7  /index.html
@@ -80,7 +84,6 @@
 -'  1  0  /app.js
 -'  1  0  /app.js
 -'  1  0  /app.js
--'  1  15  ~/index.html
 -'  13  6  /a2.html
 -'  1  0  /a2.html
 -'  4  7  /index.html
@@ -121,7 +124,6 @@
 -'  4  7  /index.html
 -'  1  0  /index.html
 -'  2  7  /index.html
--'  1  0  /app.js
 -'  1  0  /app.js
 -'  1  0  /app.js
 -'  1  0  /app.js
@@ -132,16 +134,18 @@
 # History of marks within files (newest to oldest):
 
 > ~/sampleApp.html
-	"	1	17
-	^	1	18
-	.	1	17
-	+	1	17
+	"	3	11
+	^	3	12
+	.	3	11
+	+	1	18
+	+	3	11
 
 > ~/index.html
-	"	1	15
-	^	1	16
-	.	1	15
-	+	1	15
+	"	3	11
+	^	3	12
+	.	3	11
+	+	1	16
+	+	3	11
 
 > /a2.html
 	"	13	6
